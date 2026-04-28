@@ -35,4 +35,6 @@ def plot_market_overview(df, title="Market Overview"):
     fig.autofmt_xdate()
     plt.tight_layout()
 
+    plt.close(fig)
+
     return fig, ax1, ax2, ax3
